@@ -150,3 +150,39 @@ body {
   background-color: var(--secondary-blue);
   color: var(--bg-color);
 }
+
+@media (max-width: 768px) {
+  .container {
+    display: block;
+  }
+
+  .header {
+    background: none;
+  }
+
+  .header__image {
+    width: 50vw;
+  }
+
+  .header__box {
+    margin: 2em 2em;
+  }
+
+  .secondary {
+    margin: 0;
+    text-align: center;
+  }
+
+  .secondary__image {
+    width: 50vw;
+  }
+
+  .devices_list {
+    display: block;
+  }
+
+  .footer__list {
+    display: block;
+  }
+}
+
